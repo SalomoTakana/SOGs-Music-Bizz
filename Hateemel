@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SandrOG's Music Bizz</title>
+  <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #001f3f; /* Dunkelblauer Hintergrund */
+    }
+    .container {
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>SandrOG's Music Bizz</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Music</a></li>
+      <li><a href="#contact" role="button">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>Welcome to SandrOG's Music Bizz</h2>
+          <h3>Songwriting, Ghostwriting, Help with songwriting for any experience level and genre in English and German</h3>
+        </hgroup>
+        <p>Explore my music, songwriting services, and more.</p>
+        
+        <figure>
+          <img src="INSERT_IMAGE_LINK_HERE" alt="Music Notes floating in a colorful garden">
+          <figcaption>A heavenly garden with music notes. <a href="https://open.spotify.com/artist/15nApKURddZ0bzkbCKbI7X?si=l_jcqDo1TqSGHk-UNNDeOA" target="_blank">Listen on Spotify</a></figcaption>
+        </figure>
+        
+        <h3>About Me</h3>
+        <p>I'm a 22 year old student of Psychology from Germany and love making music, playing board and video games, and spending time with my girlfriend and family.</p>
+        <p>I've written songs for my own music since 2018 with much passion. I love to pick up any topic that comes to my mind (or someone else's) and just write down whatever fits the chosen instrumental or without instrumental. I love to sing and rap and can write for both. Sometimes very serious, sometimes just for fun.</p>
+
+        <h3>Services</h3>
+        <p>Need a song or lyrics? I can help with:</p>
+        <ul>
+          <li>Songwriting</li>
+          <li>Ghostwriting</li>
+          <li>Help with songwriting in both English and German</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <section aria-label="Contact Form">
+    <div class="container" id="contact">
+      <article>
+        <hgroup>
+          <h2>Get in Touch</h2>
+          <h3>Contact me for songwriting or lyrics</h3>
+        </hgroup>
+        <form class="grid">
+          <input type="text" id="name" name="name" placeholder="Your Name" aria-label="Your Name" required />
+          <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
+          <select name="service" id="service">
+            <option value="songwriting">Songwriting</option>
+            <option value="ghostwriting">Ghostwriting</option>
+            <option value="help">Help with Songwriting</option>
+          </select>
+          <button type="submit" onclick="event.preventDefault()">Submit</button>
+        </form>
+      </article>
+    </div>
+  </section>
+
+  <footer class="container">
+    <small><a href="https://open.spotify.com/artist/15nApKURddZ0bzkbCKbI7X?si=l_jcqDo1TqSGHk-UNNDeOA" target="_blank">Spotify</a> • <a href="#">Apple Music</a></small>
+  </footer>
+
+</body>
+</html>
